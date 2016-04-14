@@ -73,7 +73,7 @@
 * 缺点
 	> 由于对视图的渲染放在了Presenter中，所以视图和Presenter的交互会过于频繁。还有一点需要明白，如果Presenter过多地渲染了视图，往往会使得它与特定的视图的联系过于紧密。一旦视图需要变更，那么Presenter也需要变更了。比如说，原本用来呈现Html的Presenter现在也需要用于呈现Pdf了，那么视图很有可能也需要变更。
 
-参考资料:
+######参考资料:
 
 * [ "张鸿洋csnd博客MVP"](http://blog.csdn.net/lmj623565791/article/details/46596109)
 * [ "废墟的树csnd博客MVC"](http://blog.csdn.net/feiduclear_up/article/details/46363207)
