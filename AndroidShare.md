@@ -60,7 +60,7 @@
 	MVP中的P（presenter）扮演的是“中间人”的作用（就如MVC中的controller）
  
 * [下图来自本文](http://droidumm.blogspot.com/2011/11/concept-model-view-present-mvp-pattern.html)
-* ![](MVC_MVP.PNG)
+* ![MVC_MVP](MVC_MVP.png)
 
 * MVP与MVC有着一个重大的区别：在MVP中View并不直接使用Model，它们之间的通信是通过Presenter (MVC中的Controller)来进行的，所有的交互都发生在Presenter内部，而在MVC中View会从直接Model中读取数据而不是通过 Controller。
 
@@ -72,6 +72,8 @@
 	> 4. 如果我们把逻辑放在Presenter中，那么我们就可以脱离用户接口来测试这些逻辑（单元测试）[1] 
 * 缺点
 	> 由于对视图的渲染放在了Presenter中，所以视图和Presenter的交互会过于频繁。还有一点需要明白，如果Presenter过多地渲染了视图，往往会使得它与特定的视图的联系过于紧密。一旦视图需要变更，那么Presenter也需要变更了。比如说，原本用来呈现Html的Presenter现在也需要用于呈现Pdf了，那么视图很有可能也需要变更。
+
+参考资料:
 
 * [ "张鸿洋csnd博客MVP"](http://blog.csdn.net/lmj623565791/article/details/46596109)
 * [ "废墟的树csnd博客MVC"](http://blog.csdn.net/feiduclear_up/article/details/46363207)
