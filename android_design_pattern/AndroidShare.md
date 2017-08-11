@@ -4,7 +4,7 @@
 > 
 > 《Android权威编程指南》[美] Bill Phillips / [美] Brian Hardy
 > 
-> [ "《Android源码设计模式解析与实战》何红辉"](http://blog.csdn.net/bboyfeiyu/article/details/50103471)
+> [《Android源码设计模式解析与实战》何红辉](http://blog.csdn.net/bboyfeiyu/article/details/50103471)
 	
 ## 面向对象的六大原则
 	1. 单一职责原则
